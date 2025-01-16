@@ -1,0 +1,204 @@
+<style>body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.section-title .underline {
+  width: 50px;
+  height: 3px;
+  background-color: #f0ad4e;
+  margin: 10px auto;
+}
+
+.product-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.product-images img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    max-height: 40px;
+    /* Smaller height for mobile view */
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar-brand img {
+    max-height: 60px;
+    /* Larger height for desktop view */
+  }
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  /* Underline the text on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Add a subtle shadow */
+  background-color: #ffc107;
+  /* Use the bg-warning yellow color */
+  color: #000;
+  /* Ensure text is readable on yellow background */
+}
+
+.nav-link {
+  transition: all 0.3s ease-in-out;
+  /* Smooth transition effect for hover */
+  margin-right: 5px;
+}
+
+/* Hover effect for the link */
+.text-decoration-none:hover {
+  text-decoration: underline;
+  /* Add underline on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Add a subtle shadow */
+  background-color: #ffc107;
+  /* Use the bg-warning yellow color */
+  color: #000;
+  /* Ensure text is readable on yellow background */
+}
+
+.text-decoration-none {
+  transition: all 0.3s ease-in-out;
+  /* Smooth transition effect for hover */
+}
+
+h2:hover {
+  /* This is the Bootstrap bg-warning color */
+  color: #ffc107;
+}
+
+/* Fade-in animation for text */
+.fade-in {
+  animation: fadeInAnimation 1.5s ease-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade-in up animation for images */
+.fade-in-up {
+  animation: fadeInUpAnimation 1s ease-out forwards;
+}
+
+@keyframes fadeInUpAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth transition for hover effect on images */
+.product-images img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-images img:hover {
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow effect */
+}
+
+.news-image {
+  width: 100%;
+  /* Ensures the image takes up the full width of its container */
+  height: 200px;
+  /* Fixed height for uniform size */
+  object-fit: cover;
+  /* Ensures images are cropped to maintain aspect ratio while filling the container */
+}
+
+.news-images img:hover {
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow effect */
+}
+
+.image-text {
+  font-size: 16px;
+  /* Adjust font size */
+  color: #333;
+  /* Adjust text color */
+}
+
+/* footer css */
+.footer {
+  padding: 40px 0;
+  color: black
+}
+
+.footer h5 {
+  color: #ffc107;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .btn {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+}
+
+.footer .btn:hover {
+  background-color: floralwhite
+}
+
+.footer .social-icons i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer .social-icons a {
+  color: #ffc107;
+}
+
+.footer .social-icons a:hover {
+  color: #e0a800;
+}
+
+.footer-bottom {
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+</style>
